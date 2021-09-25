@@ -6,7 +6,7 @@ const consultaCliente = require("./consulta-cliente")
 
 app.use(express.json())
 
-app.get("/", async(req,res) => {
+app.get("/", async (req, res) => {
     res.status(200).send("Bootcamp desenvolvedor backend")
 })
 app.post("/consulta-credito",
@@ -17,7 +17,7 @@ app.post("/consulta-credito",
 
     async (req, res) => {
         const erros = validationResult(req)
-        if(!erros.isEmpty()) {
+        if (!erros.isEmpty()) {
             return res.status(400).json({ erro: erros.array() })
         }
 

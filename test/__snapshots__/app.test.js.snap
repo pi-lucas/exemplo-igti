@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testes de integração CENÁRIO 01 1`] = `
+exports["Testes de integração CENÁRIO 01 1"] = `
 Object {
   "juros": 0.025,
   "montante": 106.9,
@@ -12,9 +12,9 @@ Object {
   ],
   "primeiraPrestacao": 35.64,
 }
-`;
+`
 
-exports[`Testes de integração CENÁRIO 02 1`] = `
+exports["Testes de integração CENÁRIO 02 1"] = `
 Object {
   "juros": 0.025,
   "montante": 106.9,
@@ -26,9 +26,9 @@ Object {
   ],
   "primeiraPrestacao": 35.64,
 }
-`;
+`
 
-exports[`Testes de integração CENÁRIO 03 1`] = `
+exports["Testes de integração CENÁRIO 03 1"] = `
 Object {
   "juros": 0.025,
   "montante": 106.9,
@@ -40,4 +40,4 @@ Object {
   ],
   "primeiraPrestacao": 35.64,
 }
-`;
+`

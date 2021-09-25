@@ -18,7 +18,7 @@ const consultar = async (nome, CPF, valor, parcelas) => {
     const ultimaConsulta = await db.consulta.findOne({
         where: { ClienteCPF: CPF },
         order: [
-            [ db.sequelize.col("createdAt"), "DESC" ]
+            [db.sequelize.col("createdAt"), "DESC"]
         ]
     })
 

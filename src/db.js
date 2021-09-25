@@ -32,7 +32,7 @@ const consultaModel = (sequelize, DataTypes) => {
     const Consulta = sequelize.define("Consulta", {
         Valor: {
             type: DataTypes.DOUBLE,
-            allowNull:false
+            allowNull: false
         },
         NumPrestacoes: {
             type: DataTypes.INTEGER,
