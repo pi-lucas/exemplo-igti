@@ -29,8 +29,13 @@ function calcularPrestacoes (montante, numeroParcelas) {
     return resultado
 }
 
+function subtrair(a, b) {
+    return a - b
+}
+
 module.exports = {
     calcularMontante,
     arredondar,
-    calcularPrestacoes
+    calcularPrestacoes,
+    subtrair
 }

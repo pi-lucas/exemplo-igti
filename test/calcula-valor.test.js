@@ -89,4 +89,9 @@ describe("calcularPrestacoes", () => {
         const meuArray = [1, 2, 3, 4]
         expect(meuArray).not.sejaDecrescente()
     })
+
+    test("Testar de subtração", () => {
+        const diferenca = calculaValor.subtrair(9, 8)
+        expect(diferenca).toBe(1)
+    })
 })
