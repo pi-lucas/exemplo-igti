@@ -33,9 +33,14 @@ function subtrair(a, b) {
     return a - b
 }
 
+function somar(a, b) {
+    return a + b
+}
+
 module.exports = {
     calcularMontante,
     arredondar,
     calcularPrestacoes,
-    subtrair
+    subtrair,
+    somar
 }

@@ -94,4 +94,9 @@ describe("calcularPrestacoes", () => {
         const diferenca = calculaValor.subtrair(9, 8)
         expect(diferenca).toBe(1)
     })
+
+    test("Teste somar", () => {
+        const soma = calculaValor.somar(3, 5)
+        expect(soma).toBe(8)
+    })
 })
